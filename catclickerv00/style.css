@@ -1,0 +1,51 @@
+body {
+  width: 80%;
+  margin: auto;
+}
+
+.catarea {
+}
+
+.catlist {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  padding: 20px;
+  font-weight: 700px;
+  font-size: 24px;
+  width: 200px;
+  background-color: #bbf;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.catlist-elem {
+  padding: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.catlist-elem:hover {
+  background-color: #fff;
+}
+
+.cat {
+  display: inline-block;
+  padding: 10px;
+}
+
+.counter {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.name {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.cat img {
+  height: 200px;
+}
