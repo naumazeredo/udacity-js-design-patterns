@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Udacity Cat Clicker Premium</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="cat">
+      <div class="counter"></div>
+      <div class="name"></div>
+      <img class="img">
+    </div>
+    <button id="admin-button" type="button">Admin</button>
+    <form id="admin-form">
+      <div>Name:</div> <input id="admin-form-name" type="text" name="name"><br>
+      <div>Source:</div> <input id="admin-form-src" type="text" name="src"><br>
+      <div># clicks:</div> <input id="admin-form-counter" type="number" name="clicks" value="0"><br>
+      <button id="admin-form-cancel" type="button">Cancel</button>
+      <button id="admin-form-submit" type="submit">Submit</button>
+    </form>
+    <div id="catlist"></div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/catclicker.js"></script>
+  </body>
+</html>
